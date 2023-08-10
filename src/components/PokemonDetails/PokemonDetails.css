@@ -1,0 +1,51 @@
+.pokemon-details-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto
+}
+
+.pokemon-detail-card {
+    border: 1px solid black;
+    box-shadow: 0px 0px 6px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px;
+    border-radius: 12px
+}
+
+.pokemon-detail-card h1 {
+    margin-bottom: 7px;
+}
+
+.pokemon-detail-card img {
+    width: 300px;
+    height: 350px;
+}
+
+.pokemon-detail-card p{
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 5px
+}
+
+.pokemon-detail-card p > span{
+    font-weight: 500;
+}
+
+.pokemon-detail-card div > span {
+    border: 1px solid gainsboro;
+    background-color: gainsboro;
+    padding: 6px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.pokemon-detail-card div {
+    margin-top: 16px;
+    display: flex;
+    gap: 12px;
+}
+
