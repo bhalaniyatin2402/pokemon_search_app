@@ -1,4 +1,4 @@
-# React + Vite
+# Pokemon Search App using React + Vite
 
 ## Routes
 - `/` - shows 20 set of pokemon list
