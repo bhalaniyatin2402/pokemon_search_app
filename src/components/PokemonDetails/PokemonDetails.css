@@ -31,8 +31,15 @@
     margin-bottom: 5px
 }
 
-.pokemon-detail-card p > span{
-    font-weight: 500;
+.pokemon-detail-type-button {
+    padding: 5px 10px;
+    border-radius: 4px;
+    background-color: lightgreen;
+    font-weight: bold;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: none;
 }
 
 .pokemon-detail-card div > span {
@@ -49,3 +56,20 @@
     gap: 12px;
 }
 
+/* references */
+.reference-type-list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px 80px;
+    flex-direction: column;
+}
+
+.reference-type-list-heading {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.pokemon-detail-loder {
+    text-align: center;
+}

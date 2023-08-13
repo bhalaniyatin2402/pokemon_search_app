@@ -1,0 +1,2 @@
+when i click on link tag it change the url params but does not re-render the components
+and same link tag when we change the url the link tag is works
